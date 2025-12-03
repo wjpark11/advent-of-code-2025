@@ -1,8 +1,6 @@
 with open("day01_input.txt", "rt") as f:
     inputs = f.readlines()
     inputs = [input.strip() for input in inputs]
-    # inputs = [d.split("   ") for d in inputs]
-    # inputs = [[int(item) for item in data] for data in inputs]
 
 
 def get_position(current_positon: int, dial: str) -> int:
